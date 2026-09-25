@@ -1,0 +1,38 @@
+{
+  "name": "storybook-analog-angular-22-2-repro",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "build-storybook": "ng run storybook-analog-angular-22-2-repro:build-storybook"
+  },
+  "private": true,
+  "packageManager": "pnpm@11.25.0",
+  "dependencies": {
+    "@angular/animations": "^22.2.0",
+    "@angular/common": "^22.2.0",
+    "@angular/compiler": "^22.2.0",
+    "@angular/core": "^22.2.0",
+    "@angular/forms": "^22.2.0",
+    "@angular/platform-browser": "^22.2.0",
+    "@angular/router": "^22.2.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@analogjs/vite-plugin-angular": "2.7.2",
+    "@angular-devkit/architect": "^0.2202.0",
+    "@angular-devkit/core": "^22.2.0",
+    "@angular/build": "^22.2.0",
+    "@angular/cli": "^22.2.0",
+    "@angular/compiler-cli": "^22.2.0",
+    "@storybook/angular-vite": "10.6.0",
+    "prettier": "^3.8.1",
+    "storybook": "10.6.0",
+    "typescript": "~6.0.2",
+    "vite": "8.3.0"
+  }
+}

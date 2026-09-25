@@ -1,0 +1,8 @@
+{
+  "extends": "../tsconfig.app.json",
+  "compilerOptions": {
+    "types": ["node"]
+  },
+  "include": ["../src/**/*.stories.ts", "../src/**/*.ts", "./preview.ts"],
+  "exclude": ["../src/main.ts"]
+}
