@@ -31,7 +31,7 @@
     "@angular/compiler-cli": "^22.2.0",
     "@storybook/angular-vite": "10.6.0",
     "prettier": "^3.8.1",
-    "storybook": "10.6.0",
+    "storybook": "10.6.2",
     "typescript": "~6.0.2",
     "vite": "8.3.0"
   }
